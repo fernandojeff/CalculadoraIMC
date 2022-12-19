@@ -1,0 +1,55 @@
+:root {
+    --fundo: #3b3936;
+    --texto: #b2bebf;
+    --important: #BD2A2E;
+    --linha: #486966;
+    --fundo2: #889C9B;
+}
+* {
+    font-family: sans-serif;
+}
+form {
+    text-align: center;
+    color: var(--texto);
+}
+
+body {
+    background-color: var(--fundo);
+    color: white;
+}
+
+h2, h3 {
+    text-align: center;
+    color: var(--important);
+}
+
+p {
+    text-align: center;
+    font-size: x-large;
+    color: var(--texto);
+}
+
+fieldset {
+    margin-left: 30%;
+    margin-right: 30%;
+    border: 1px solid var(--linha);
+}
+
+legend {
+    margin: auto;
+    font-size: xx-large;
+    color: var(--important);
+}
+
+input {
+    background-color: var(--fundo2);
+    border: none;
+}
+
+button {
+    color: var(--texto);
+    border-radius: 5px;
+    background-color: var(--important);
+    border: none;
+
+}
